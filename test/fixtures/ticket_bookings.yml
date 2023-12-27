@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer_id: 1
+  ticket_id: 1
+  event_id: 1
+  event_date: 2023-12-25 13:32:07
+  status: MyString
+
+two:
+  customer_id: 1
+  ticket_id: 1
+  event_id: 1
+  event_date: 2023-12-25 13:32:07
+  status: MyString

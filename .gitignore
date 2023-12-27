@@ -1,0 +1,13 @@
+/coverage/
+/.bundle
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+.byebug_history
+.DS_Store
+.bundle
+.sass-cache
+.rvmrc
+._.DS_Store
+dump.rdb

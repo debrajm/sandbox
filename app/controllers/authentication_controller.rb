@@ -9,7 +9,7 @@ class AuthenticationController < ApplicationController
 				payload = {user_id: @user.id}
 				secret = ENV['SECRET_KEY_BASE'] || Rails.application.secrets.secret_key_base
       			token = create_token(payload)
-      			render json: { email: @user.email }
+      			render json: { email: @user.email, token: token }
 			else
 				render json: {message: "Authentication failed"}
 			end

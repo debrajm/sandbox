@@ -15,8 +15,7 @@ Things you may want to cover:
 * gem "jwt"
 * 
 
-* Database creation > Pull code from https://github.com/debrajm/sandbox/master
-Then run bellow command
+* Database creation > Pull code and run bellow command
 * rake db:create
 * rake db:migrate
 * rake db:seed
